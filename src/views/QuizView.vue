@@ -145,6 +145,9 @@ onBeforeMount(() => {
 function handleAnswer() {
   for(let i=0; i < 10; i++){
     if(i == 3){ 
+      if(answerList.value[i] == null || answerList.value[i] == ''){
+        continue;
+      }
       if(answerList.value[i].indexOf('同時') != -1 && (answerList.value[i].indexOf('2人')  != -1 || answerList.value[i].indexOf('２人')  != -1 || answerList.value[i].indexOf('二人')  != -1) ){
         store.increment();
         continue;
