@@ -43,6 +43,7 @@ main{
 .title{
   font-size: 40px; 
   font-weight: 700;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 .comment{
