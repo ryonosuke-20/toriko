@@ -234,6 +234,7 @@ main{
 .quiz-input{
   height: 3em;
   width: 90%;
+  font-size: 16px;
   padding: 0 16px;
   border-radius: 4px;
   border: none;
