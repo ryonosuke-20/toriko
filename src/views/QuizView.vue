@@ -168,7 +168,7 @@ function handleAnswer() {
     }
     store.increment();
   }
-  if(store.count == 10){
+  if(store.count >= 10){
     router.push('ok');    
   }else{
     router.push('ng');

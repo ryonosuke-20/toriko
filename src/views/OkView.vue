@@ -26,9 +26,8 @@
 <script setup lang="ts">
 import router from '@/router';
 
-function handleQuiz() {
-//  router.push('quiz');
-//send();
+async function handleQuiz() {
+  router.push('complete');
 }
 
 </script>

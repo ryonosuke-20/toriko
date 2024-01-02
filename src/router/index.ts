@@ -24,6 +24,11 @@ const router = createRouter({
       name: "ok",
       component: () => import("../views/OkView.vue"),
     },
+    {
+      path: "/complete",
+      name: "complete",
+      component: () => import("../views/CompleteView.vue"),
+    },
   ],
 });
 
